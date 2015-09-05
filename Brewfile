@@ -16,12 +16,11 @@ cask delayedlauncher
 cask flux
 cask google-japanese-ime
 cask iterm2
-cask istatmenus
+cask istat-menus
 cask java
 cask karabiner
 cask keyboard-maestro
 cask keyboardcleantool
-cask lightning keyboard
 cask mou
 cask onyx
 cask path-finder
