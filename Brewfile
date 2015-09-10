@@ -1,11 +1,9 @@
-update
-upgrade
-
-## caskroom/cask
+# caskroom/cask
 tap caskroom/cask || true
 install brew-cask
 
 cask airserver
+#cask alfred
 cask android-studio
 cask appcleaner
 cask bartender
@@ -30,14 +28,14 @@ cask totals
 cask xscope
 cask xtrafinder
 
-## homebrew/binary
+# homebrew/binary
 tap homebrew/binary
 
-## homebrew/dupes
+# homebrew/dupes
 tap homebrew/dupes
 brew whois
 
-## rcmdnk/file
+# rcmdnk/file
 tap rcmdnk/file
 brew brew-file
 
@@ -83,44 +81,48 @@ brew wget
 brew xz
 
 # App Store applications
-appstore 1Password
-appstore Affinity Designer
-appstore Aspect Ratio Calculator
-appstore Blackmagic Disk Speed Test
-appstore CheatSheet
-appstore CloudClip Manager
-appstore Dash
-appstore Degrees
-appstore Ds Store Remover
-appstore Evernote
-appstore ExSqueeze it
-appstore Fantastical
-appstore FontPreview
-appstore Frank DeLoupe
-appstore Geekbench 3
-appstore GIFQuickMaker
-appstore Gradient
-appstore iMovie
-appstore JPEGmini
-appstore Keynote
-appstore Kobito
-appstore MoneyWiz
-appstore Numbers
-appstore Pages
-appstore Pixelmator
-appstore PNG mini
-appstore Pocket
-appstore Reeder
-appstore Simplenote
-appstore Sketch
-appstore Skitch
-appstore Super Vectorizer
-appstore Tadam
-appstore The Unarchiver
-appstore Total Video Converter Pro
-appstore Translate Tab
-appstore Transmit
-appstore Typist
-appstore WannaAudio
-appstore WiFi Explorer
-appstore Xcode
+#appstore 1Password
+#appstore Affinity Designer
+#appstore Aspect Ratio Calculator
+#appstore Blackmagic Disk Speed Test
+#appstore CheatSheet
+#appstore CloudClip Manager
+#appstore Dash
+#appstore Degrees
+#appstore Ds Store Remover
+#appstore Evernote
+#appstore ExSqueeze it
+#appstore Fantastical
+#appstore FontPreview
+#appstore Frank DeLoupe
+#appstore Geekbench 3
+#appstore GIFQuickMaker
+#appstore Gradient
+#appstore iMovie
+#appstore JPEGmini
+#appstore Keynote
+#appstore Kobito
+#appstore MoneyWiz
+#appstore Numbers
+#appstore Pages
+#appstore Pixelmator
+#appstore PNG mini
+#appstore Pocket
+#appstore Reeder
+#appstore Simplenote
+#appstore Sketch
+#appstore Skitch
+#appstore Super Vectorizer
+#appstore Tadam
+#appstore The Unarchiver
+#appstore Total Video Converter Pro
+#appstore Translate Tab
+#appstore Transmit
+#appstore Typist
+#appstore WannaAudio
+#appstore WiFi Explorer
+#appstore Xcode
+
+# Other commands
+update
+upgrade
