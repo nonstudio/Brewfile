@@ -1,5 +1,5 @@
 # caskroom/cask
-tap caskroom/cask || true
+tap caskroom/cask
 install brew-cask
 
 cask airserver
